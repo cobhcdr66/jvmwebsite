@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joe's Page</title>
+  <link rel="icon" type="image/x-icon" href="/images/Neve5088.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <script src="https://kit.fontawesome.com/792ce47f20.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="myscripts.js"></script>
+</head>
+
+<h2 class=".page-title">JOE MOTSAY</h2>
+
+
+<body>
+  <div class="content-centered-nav">
+    <div class="navbar-container">
+
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+
+          <a href="index.html"><i class=".dropbtn fa fa-fw fa-home"></i> Home</a>
+          <a href="about.html"><i class="fa fa-fw fa-user"></i> About Me</a>
+          <a href="concepts.html"><i class="fa-solid fa-swatchbook"></i> Concepts</a>
+          <a href="3dmodels.html"><i class="fa-solid fa-compass-drafting"></i> 3D Models and Designs</a>
+          <a href="audio.html"><i class="fa-solid fa-sliders"></i> Audio</button>
+            <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <form action="/action_page.php" method="post">
+      <div class="form-container" style="font-size:24px">
+        <i class="fa-solid fa-pencil"></i>
+        <label for="name"><b>Name:</b></label>
+        <input type="text" placeholder="Name" name="name" required><br>
+        <i class="fa fa-user icon"></i>
+        <label for="uname"><b>Username:</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required><br>
+        <i class="fa-solid fa-key"></i>
+        <label for="psw"><b>Password:</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required><br>
+        <i class="fa-solid fa-key"></i>
+        <label for="Repeat Password"><b>Repeat Password:</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw" required><br>
+
+        <div>
+          <button class=".button" type="submit">Register</button>
+        </div>
+        <label>
+          <!-- <input type="checkbox" checked="checked" name="remember">
+          <p>Remember Me</p> -->
+          <!-- </label>
+        <span class="psw"><a href="#">Forgot password?</a></span> -->
+    </form>
+  </div>
+  </div>
+
+  <div class="content-centered">
+    Photo by: Kris Clemson
+  </div>
+
+</body>
+
+</html>
